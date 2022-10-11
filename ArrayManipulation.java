@@ -17,13 +17,23 @@ public class ArrayManipulation
         System.out.println(newArray.length);
         System.out.println(Arrays.equals(newArray,secondArray));
 
-           Arrays.fill(thirdArray,5);
-           for (int j=0;j<thirdArray.length;j++)
-           {
-               System.out.println(thirdArray[j]);
-           }
+        Arrays.fill(thirdArray,5);
+        for (int j=0;j<thirdArray.length;j++)
+        {
+            System.out.println(thirdArray[j]);
+        }
         System.out.println(Arrays.toString(thirdArray));
+        System.out.println(addtion(5,6));
+
 
     }
+    // methods
+    public static int addtion(int numberOne, int numberTwo)
+    {
+        int sum=0;
+        sum=numberOne+numberTwo;
+        return sum;
+    }
+
 
 }

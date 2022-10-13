@@ -4,7 +4,7 @@ public class HelloWorld
     {
         System.out.println("heloo world");
 
-        int number 8;
+        int number= 8;
         do {
             System.out.println("the number u netered is "+ number);
             number++;
